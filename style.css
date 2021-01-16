@@ -9,6 +9,47 @@
   color: #fff;
   background: #007bff;
 }
+
+/*navbar styling*/
+.navbar{
+  position:fixed;
+  width: 100%;
+  padding: 15px 0;
+  background: black;
+  /*font-family:;*/
+}
+
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+
+}
+
+.navbar .logo a{
+  color: green;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu li a{
+  color: white;
+  font-size: 18px;
+  font-weight: : 500;
+  margin-left: 25px;
+}
+
 body{
   padding: 10px;
 }
