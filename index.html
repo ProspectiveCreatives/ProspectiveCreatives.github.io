@@ -13,12 +13,34 @@
 </head>
 <body>
   <div class="wrapper">
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <div class="dropdown">
+        <button class="dropbtn">Gallery
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Nature</a>
+          <a href="#">Portrait</a>
+          <a href="#">People</a>
+          <a href="#">Architecture</a>
+          <a href="#">Animals</a>
+          <a href="#">Sports</a>
+          <a href="#">Travel</a>
+          <a href="#">Wedding</a>
+          <a href="#">Real Estate</a>
+        </div>
+      </div>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
     <!-- filter Items -->
-    <nav class="navbar">
+<!--     <nav class="navbar">
         <div class="max-width">
-            <div class="logo"><a href="#">Prospective Creatives</a></div>
-            <ul class="menu"> 
-                <li><a href="#">Home</a></li>
+            <div class="logo"><a href="#">Prospective Creatives</a></div>  -->
                     <!-- <span class="item active" data-name="all">Nature</span>
                     <span class="item" data-name="portrait">Portrait</span>
                     <span class="item" data-name="people">People</span>
@@ -28,34 +50,15 @@
                     <span class="item" data-name="travel">Travel</span>
                     <span class="item" data-name="weddings">Weddings</span>
                     <span class="item" data-name="real-estate">Real Estate</span> -->
-                <li> 
-                  <div class="dropdown">
-                    <a href="#" class="dropdown-content">Gallery</a>
-                    <!-- photosen + potential categories -->
-                    <a href="#">Nature</a>
-                    <a href="#">Portrait</a>
-                    <a href="#">People</a>
-                    <a href="#">Architecture</a>
-                    <a href="#">Animals</a>
-                    <a href="#">Sports</a>
-                    <a href="#">Travel</a>
-                    <a href="#">Wedding</a>
-                    <a href="#">Real Estate</a>
-                  </div>
-                </li>
                 <!-- add submenu categories for gallery -->
-                <li><a href="#">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+        <!-- </div>
+    </nav> -->
 
     <!-- home section start  -->
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Blah home</div>
+                <div class="text-1">home</div>
             </div>
         </div>
     </section>
