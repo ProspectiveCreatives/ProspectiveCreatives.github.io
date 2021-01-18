@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -8,6 +8,12 @@
 ::selection{
   color: #fff;
   background: #007bff;
+}
+
+body {
+  background: #333;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
 }
 
 .max-width{
@@ -145,8 +151,60 @@
   grid-auto-rows: 100px;
 }
 
-.grid-item{
+.grid-container > div {
+  cursor: pointer;
+  height: 210px;
+  background-size: cover;
+  /* background-attachment: fixed; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  transition: all 0.5s ease-in;
+}
+
+.grid-container > div:hover {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.grid-item > img {
   object-fit: cover;
   width: 100%;
-  max-height: 100%
+  max-height: 100%;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px;
+}
+
+h2 span {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.row1 {
+  grid-row: 1/4
+}
+
+.row2 {
+  grid-row: 4/7
+}
+
+.row3 {
+  grid-row: 7/10
+}
+
+.item1 {
+  background: url('./img/Terry-2.png');
 }
