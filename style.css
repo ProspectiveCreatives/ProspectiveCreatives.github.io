@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 ::selection{
   color: #fff;
@@ -148,7 +148,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1em;
-  grid-auto-rows: 300px;
 }
 
 .grid-container > div {
@@ -170,14 +169,6 @@ body {
   transform: scale(0.98);
 }
 
-.grid-item > img {
-  object-fit: cover;
-  width: 100%;
-  max-height: 100%;
-  text-align: center;
-  color: white;
-}
-
 h2 {
   font-size: 30px;
   font-weight: 300;
@@ -189,19 +180,13 @@ h2 span {
 }
 
 p {
-  font-size: 20px;
-}
-
-.row1 {
-  grid-row: 1/4
-}
-
-.row2 {
-  grid-row: 4/7
-}
-
-.row3 {
-  grid-row: 7/10
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 6px;
+  width: 125px;
+  height: 30px;
+  border: 2px solid white;
 }
 
 .nature-cover {
