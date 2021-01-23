@@ -224,3 +224,11 @@ p {
 .real-estate-cover {
   background: url('./img/Cookies-3.jpeg');
 }
+
+.cover {
+  filter: grayscale(90%);
+}
+
+.cover:hover {
+  filter: none;
+}
