@@ -28,20 +28,45 @@ body {
   overflow: hidden;
 }
 
+/* Style list items inside the navigation bar */
+.topnav ul {
+  list-style: none;
+  text-align: center;
+}
+
+/* Style list items inside the navigation bar */
+.topnav li {
+  display: inline-block;
+}
+
+.topnav .navbar-left {
+  float: left;
+  padding-top: 30px;
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+/* Style icons to display on right of navigation bar */
+.topnav .navbar-right {
+  float: right;
+  padding-right: 5px;
+}
+
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #808080;
   text-align: center;
-  padding: 14px 16px;
+  padding: 40px 16px;
   text-decoration: none;
-  font-size: 14px;
-  height: 90px;
+  font-size: 13px;
+  height: 80px;
 }
 
 /* Add an active class to highlight the current page */
-.topnav > .active, .topnav > .dropdown > .active {
+.topnav > ul >  li > .active, .topnav > .dropdown > .active {
   color: #00DDB8;
 }
 
@@ -58,11 +83,11 @@ body {
 
 /* Style the dropdown button to fit inside the topnav */
 .dropdown .dropbtn {
-  font-size: 14px;
+  font-size: 13px;
   border: none;
   outline: none;
-  color: white;
-  padding: 14px 16px;
+  color: #808080;
+  padding: 25px 14px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -82,7 +107,7 @@ body {
 .dropdown-content a {
   float: none;
   color: black;
-  padding: 12px 16px;
+  padding: 20px 20px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -178,16 +203,6 @@ h2 {
 
 h2 span {
   font-size: 30px;
-}
-
-p {
-  font-size: 12px;
-  display: inline-block;
-  text-align: center;
-  padding-top: 6px;
-  width: 125px;
-  height: 30px;
-  border: 2px solid white;
 }
 
 .photo-button {
